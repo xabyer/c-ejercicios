@@ -6,10 +6,10 @@
  */
 
 int main(void) {
-    bool divisible_by_3_and_5 = true;
+    bool divisible_by_3_and_5;
     int suma = 0, maximo = 0;
 
-    printf("Este programa muestra por pantalla la suma de todos los números ");
+    printf("Este programa muestra por pantalla la suma de todos los numeros ");
     printf("divisibles entre 3 y 5 hasta el limite que le indiques.\n");
     printf("Por favor, introduce el limite maximo: ");
     scanf("%i", &maximo);
